@@ -16,18 +16,41 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
+/*****Grid****/
+
+.content-wrapper {
+  width: 100%;
+}
+
+.portfolio-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+
+}
+
+.home-portfolio-piece {
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.home-portfolio-piece figure {
+  width: 100%;
+}
+/*****Header****/
 
 header h2 {
-  width: 800px;
+  width: 600px;
   clear: both;
   line-height: 80px;
-  font-size: 45px;
+  font-size: 40px;
   color: black;
   padding: 1%;
 }
 
 header h3 {
-  font-size: 45px;
+  font-size: 40px;
   padding: 1%;
 }
 nav {
@@ -47,15 +70,23 @@ nav ul li a {
   padding-left: 80px;
 }
 
+button {
+  border-radius: 15%;
+}
+/*****About*****/
+
+
+
+
+/****Work*****/
+#work {
+  width: 100%;
+}
+ 
+
 .home-title {
   text-align: left;
   padding: 5%;
-}
-
-.home-portfolio-piece {
-  justify-content: center;
-
-  
 }
 
 /*
