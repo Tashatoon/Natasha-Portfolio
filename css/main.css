@@ -18,7 +18,9 @@ html {
 }
 
 body {
-  background-color: lightblue;
+  background-image: url("/img/full-background.png");
+  background-repeat: no-repeat;
+  width: 100%;
 }
 /*****Grid****/
 
@@ -29,8 +31,9 @@ body {
 .portfolio-wrapper {
 display: grid;
 grid-template-columns:  auto auto auto;
-padding: 3%;
+padding: 5%;
 width: auto;
+
 
 }
 
@@ -50,10 +53,19 @@ width: auto;
   text-align: center;
   font-size: 35px;
 }
+
+figure .project-link {
+  box-shadow: 10px 35px 35px purple;
+}
 article.portfolio {
- background-color: pink;
+  margin-top: 25%;
+ 
 }
 
+#contact {
+margin: 3%;
+
+}
 /*****Header****/
 
 header h2 {
@@ -66,7 +78,7 @@ header h2 {
 }
 
 header h3 {
-  font-size: 30px;
+  font-size: 35px;
   padding: 1%;
 }
 
@@ -91,12 +103,19 @@ button {
   border-radius: 15%;
 }
 /*****About*****/
-.about-bio {
-margin: 3%;
-
- 
+#about {
+  margin-top: 0%;
 }
 
+.about-bio {
+margin-left: 2%;
+text-align: left;
+display: block;
+justify-content: center;
+}
+img .about-content-wrapper {
+margin-left: 35%;
+}
 
 
 /****Work*****/
@@ -116,22 +135,22 @@ margin: 3%;
   width: 100%;
   flex-flow: row wrap;
   text-transform: uppercase;
+
 }
 .tool-wrapper {
-  display: flex;
+ display: flex;
   justify-content: space-evenly;
   width: 100%;
-  flex-flow: row wrap;
+   flex-flow: row wrap;
   text-transform: uppercase;
 }
-
-#skills {
-  position: relative; top:110%;
-  text-align: center;
+.skills-header {
   text-transform: uppercase;
 }
-
-
+.content-wrapper h4 {
+  text-transform: uppercase;
+}
+/***Contact info***/
 
 
 /*
