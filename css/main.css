@@ -16,43 +16,60 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
+
+body {
+  background-color: lightblue;
+}
 /*****Grid****/
 
 .content-wrapper {
-  width: 100%;
+  width: 85%;
 }
 
 .portfolio-wrapper {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 5px;
+display: grid;
+grid-template-columns:  auto auto auto;
+padding: 3%;
+width: auto;
 
 }
 
 .home-portfolio-piece {
-display: flex;
-justify-content: center;
-flex-direction: column;
+  width: 100%;
+  padding: 35px;
+  font-size: 15px;
+  text-align: center;
 }
 
 .home-portfolio-piece figure {
-  width: 100%;
+  width: auto;
 }
+
+.portfolio-header {
+  width: 115%;
+  text-align: center;
+  font-size: 35px;
+}
+article.portfolio {
+ background-color: pink;
+}
+
 /*****Header****/
 
 header h2 {
   width: 600px;
   clear: both;
-  line-height: 80px;
-  font-size: 40px;
+  line-height: 45px;
+  font-size: 30px;
   color: black;
   padding: 1%;
 }
 
 header h3 {
-  font-size: 40px;
+  font-size: 30px;
   padding: 1%;
 }
+
 nav {
   float: right;
   padding: 75px 25px;
@@ -66,7 +83,7 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 15px;
-  color: #999;
+  color: black;
   padding-left: 80px;
 }
 
@@ -74,7 +91,11 @@ button {
   border-radius: 15%;
 }
 /*****About*****/
+.about-bio {
+margin: 3%;
 
+ 
+}
 
 
 
@@ -88,6 +109,30 @@ button {
   text-align: left;
   padding: 5%;
 }
+
+.language-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-flow: row wrap;
+  text-transform: uppercase;
+}
+.tool-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-flow: row wrap;
+  text-transform: uppercase;
+}
+
+#skills {
+  position: relative; top:110%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
 
 /*
  * Remove text-shadow in selection highlight:
