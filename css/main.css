@@ -50,7 +50,9 @@ width: auto;
 .portfolio-header {
   width: 115%;
   text-align: center;
-  font-size: 35px;
+  text-shadow: 1px 1px 2px purple;
+  font-size: 25px;
+  text-transform: uppercase;
 }
 
 figure .project-link {
@@ -117,11 +119,13 @@ button {
 /****Work*****/
 #work {
   width: 100%;
+  margin-top:-195px;
 }
  
 
 .home-title {
   text-align: left;
+  text-shadow: 1px 1px 2px purple;
   padding: 5%;
 }
 
@@ -142,8 +146,10 @@ button {
 }
 #skills {
   text-align: center;
+  text-shadow: 1px 1px 2px purple;
 }
 .skills-header {
+  font-size: 25px;
   text-transform: uppercase;
 }
 .content-wrapper h4 {
