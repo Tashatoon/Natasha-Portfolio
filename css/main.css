@@ -18,9 +18,8 @@ html {
 }
 
 body {
-  background-image: url("/img/full-background.png");
+  background-image: url("/img/shutterstock_1420333631.jpg");
   background-repeat: no-repeat;
-  width: 100%;
 }
 /*****Grid****/
 
@@ -96,6 +95,7 @@ nav ul li a {
 
 button {
   border-radius: 15%;
+  color: purple;
 }
 /*****About*****/
 #about .content-wrapper {
@@ -140,6 +140,9 @@ button {
    flex-flow: row wrap;
   text-transform: uppercase;
 }
+#skills {
+  text-align: center;
+}
 .skills-header {
   text-transform: uppercase;
 }
@@ -148,6 +151,7 @@ button {
 }
 /***Contact info***/
 #contact {
+  padding-left: 20%;
   font-size: 25px;
   position: relative; top:-195px;
   text-align: center;
