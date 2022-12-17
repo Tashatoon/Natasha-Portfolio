@@ -58,14 +58,9 @@ figure .project-link {
   box-shadow: 10px 35px 35px purple;
 }
 article.portfolio {
-  margin-top: 25%;
- 
+  margin-top: 25%; 
 }
 
-#contact {
-margin: 3%;
-
-}
 /*****Header****/
 
 header h2 {
@@ -103,21 +98,22 @@ button {
   border-radius: 15%;
 }
 /*****About*****/
-#about {
-  margin-top: 0%;
+#about .content-wrapper {
+  width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
 
 .about-bio {
-margin-left: 2%;
-text-align: left;
-display: block;
-justify-content: center;
+  padding-left: 300px;
+   position: relative; top:-195px;
+    line-height: 25px;
+    font-family: "Open Sans";
+    font-size: 100%;
+    color:rgb(2, 15, 26);
 }
-img .about-content-wrapper {
-margin-left: 35%;
-}
-
-
 /****Work*****/
 #work {
   width: 100%;
@@ -151,6 +147,11 @@ margin-left: 35%;
   text-transform: uppercase;
 }
 /***Contact info***/
+#contact {
+  font-size: 25px;
+  position: relative; top:-195px;
+  text-align: center;
+}
 
 
 /*
