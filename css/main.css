@@ -24,23 +24,20 @@ body {
 /*****Grid****/
 
 .content-wrapper {
-  width: 85%;
+ width: 80%;
 }
 
 .portfolio-wrapper {
-display: grid;
-grid-template-columns:  auto auto auto;
-padding: 5%;
-width: auto;
-
-
+columns: 3;
 }
 
 .home-portfolio-piece {
   width: 100%;
-  padding: 35px;
+  padding: 18%;
   font-size: 15px;
   text-align: center;
+  cursor: pointer;
+
 }
 
 .home-portfolio-piece figure {
@@ -50,7 +47,7 @@ width: auto;
 .portfolio-header {
   width: 115%;
   text-align: center;
-  text-shadow: 1px 1px 2px purple;
+  text-shadow: 1px 1px 1px purple;
   font-size: 25px;
   text-transform: uppercase;
 }
@@ -98,6 +95,7 @@ nav ul li a {
 button {
   border-radius: 15%;
   color: purple;
+  cursor: pointer;
 }
 /*****About*****/
 #about .content-wrapper {
@@ -110,11 +108,15 @@ button {
 
 .about-bio {
   padding-left: 300px;
-   position: relative; top:-195px;
-    line-height: 25px;
+   position: relative; top:-215px;
+    line-height: 35px;
     font-family: "Open Sans";
-    font-size: 100%;
+    font-size: 125%;
     color:rgb(2, 15, 26);
+}
+
+.about-bio h2 {
+  text-shadow: 1px 1px 1px purple;
 }
 /****Work*****/
 #work {
@@ -125,8 +127,11 @@ button {
 
 .home-title {
   text-align: left;
-  text-shadow: 1px 1px 2px purple;
+  text-shadow: 1px 1px 1px pink;
   padding: 5%;
+}
+span {
+  text-transform: uppercase;
 }
 
 .language-wrapper {
@@ -146,7 +151,9 @@ button {
 }
 #skills {
   text-align: center;
-  text-shadow: 1px 1px 2px purple;
+  text-shadow: 1px 1px 1px purple;
+  margin-bottom: 10%;
+  margin-right: -25%;
 }
 .skills-header {
   font-size: 25px;
@@ -161,6 +168,7 @@ button {
   font-size: 25px;
   position: relative; top:-195px;
   text-align: center;
+  text-shadow: 1px 1px 1px purple;
 }
 
 
