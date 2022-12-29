@@ -117,34 +117,31 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 }
+.skills-header {
+  font-size: 25px;
+}
 .language-wrapper {
   text-align: center;
   text-transform: uppercase;
 
 }
 .language-wrapper p {
-  float: right;
-  padding: 25px;
+ display: inline;
  
 }
 .tool-wrapper h4{
   text-align: center;
   text-transform: uppercase;
-  padding: 0%;
 }
-
 .tool-wrapper p {
-  float: left;
-  padding: 35px;
+ display: inline;
 }
 #skills .content-wrapper{
-  float: right;
+display: inline;
   text-align: center;
   text-shadow: 1px 1px 1px purple;
   text-transform: uppercase;
-  background-color: pink;
 }
-
 /***Contact info***/
 #contact {
   font-size: 25px;
