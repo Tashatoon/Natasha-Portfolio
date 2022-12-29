@@ -85,9 +85,8 @@ button {
 }
 /*****About*****/
 .about-content-wrapper {
-display: block;
-align-items: left;
-justify-items: left;
+display: inline-flex;
+padding: 5%;
  
 }
 
