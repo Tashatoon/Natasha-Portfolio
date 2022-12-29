@@ -84,12 +84,11 @@ button {
   cursor: pointer;
 }
 /*****About*****/
-#about .content-wrapper {
-  width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
+.about-content-wrapper {
+display: block;
+align-items: left;
+justify-items: left;
+ 
 }
 
 .about-bio {
@@ -123,14 +122,27 @@ flex-direction: column;
   text-transform: uppercase;
 
 }
-.tool-wrapper {
+.language-wrapper p {
+  float: right;
+  padding: 25px;
+ 
+}
+.tool-wrapper h4{
   text-align: center;
   text-transform: uppercase;
+  padding: 0%;
+}
+
+.tool-wrapper p {
+  float: left;
+  padding: 35px;
 }
 #skills .content-wrapper{
+  float: right;
   text-align: center;
   text-shadow: 1px 1px 1px purple;
   text-transform: uppercase;
+  background-color: pink;
 }
 
 /***Contact info***/
