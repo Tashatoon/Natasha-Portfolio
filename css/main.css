@@ -32,7 +32,7 @@ article.portfolio {
 
 .portfolio-wrapper {
   display: grid;
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 30% 30%;
   justify-content: space-between;
   margin: auto;
   width: 85%;
@@ -43,6 +43,8 @@ article.portfolio {
   text-shadow: 1px 1px 1px purple;
   text-transform: uppercase;
   font-size: 25px;
+  padding-top:80px;
+  padding-bottom: 20px ;
 }
 
 figure .project-link {
@@ -108,6 +110,15 @@ padding: 5%;
   text-align: center;
   text-shadow: 1px 1px 1px pink;
 }
+
+.home-title h2 {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.home-title h3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 span {
   text-transform: uppercase;
 }
@@ -115,6 +126,11 @@ span {
 display: flex;
 justify-content: center;
 flex-direction: column;
+padding-top: 20px;
+padding-bottom: 40px;
+}
+.project-description {
+  padding-bottom: 30px;
 }
 .skills-header {
   font-size: 25px;
