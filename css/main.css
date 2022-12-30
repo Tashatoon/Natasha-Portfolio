@@ -167,9 +167,22 @@ display: inline;
   text-shadow: 1px 1px 1px purple;
 }
 
+/*****Mobile******/
 
+@media only screen and (min-width: 240px) and (max-width: 600px) {
+  #contact {
+    background-color: aqua;
+  }
+  .about-content-wrapper {
+    width: auto;
+  }
+}
 
-
+@media screen and (min-width: 601px) and (max-width: 992px) {
+  #contact {
+    background-color: rgb(19, 198, 242);
+  }
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
