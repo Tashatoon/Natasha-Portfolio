@@ -29,7 +29,6 @@ article.portfolio {
 .content-wrapper {
   text-align: match-parent;
 }
-
 .portfolio-wrapper {
   display: grid;
   grid-template-columns: 30% 30%;
