@@ -10,7 +10,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
+/***Reorder CSS elements****/
 html {
   color: #222;
   font-size: 1em;
@@ -30,11 +30,10 @@ article.portfolio {
   text-align: match-parent;
 }
 .portfolio-wrapper {
-  display: grid;
-  grid-template-columns: 30% 30%;
-  justify-content: space-between;
-  margin: auto;
-  width: 85%;
+  
+display: grid;
+grid-template-columns: auto auto;
+
 }
 
 .portfolio-header {
@@ -76,7 +75,7 @@ nav ul li a {
   text-decoration: none;
   font-size: 15px;
   color: black;
-  padding-left: 80px;
+  padding-left: 60px;
 }
 
 button {
@@ -152,6 +151,7 @@ padding-bottom: 40px;
 }
 .tool-wrapper p {
  display: inline;
+
 }
 #skills .content-wrapper{
 display: inline;
@@ -175,6 +175,12 @@ display: inline;
   .about-content-wrapper {
     width: auto;
   }
+  .portfolio-wrapper {
+    margin: auto;
+  }
+  .home-portfolio-piece {
+    display: inline;
+  }
 }
 
 @media screen and (min-width: 601px) and (max-width: 992px) {
@@ -192,7 +198,7 @@ display: inline;
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
+ ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
@@ -425,4 +431,5 @@ textarea {
     page-break-after: avoid;
   }
 }
+
 
