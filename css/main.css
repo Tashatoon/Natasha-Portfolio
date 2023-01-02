@@ -30,9 +30,8 @@ article.portfolio {
   text-align: match-parent;
 }
 .portfolio-wrapper {
-  
-display: grid;
-grid-template-columns: auto auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 
 }
 
@@ -169,6 +168,7 @@ display: inline;
 /*****Mobile******/
 
 @media only screen and (min-width: 240px) and (max-width: 600px) {
+
   #contact {
     background-color: aqua;
   }
