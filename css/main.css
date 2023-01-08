@@ -119,8 +119,11 @@ span {
 display: flex;
 justify-content: center;
 flex-direction: column;
+padding-left: 20px;
+padding-right: 20px;
 padding-top: 20px;
 padding-bottom: 40px;
+
 }
 .project-description {
   padding-bottom: 30px;
