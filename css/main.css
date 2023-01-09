@@ -99,8 +99,8 @@ padding: 25px;
 
 .home-title {
  width: auto;
- font-size: 35px;
-  text-align: center;
+ font-size: 30px;
+  text-align: left;
   text-shadow: 1px 1px 1px pink;
 }
 
@@ -143,10 +143,10 @@ padding-bottom: 40px;
 .tool-wrapper h4{
   text-align: center;
   text-transform: uppercase;
+  
 }
 .tool-wrapper p {
  display: inline;
-
 }
 #skills .content-wrapper, #services {
 display: inline;
